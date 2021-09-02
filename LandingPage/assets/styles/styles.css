@@ -90,7 +90,8 @@ div.search-box div{
     display: flex;
     align-items: center;
     height: 50px;
-    margin: 0px 50px;
+    margin: 0px 5px;
+    flex-direction: row;
 }
 
 header div.search-box i{
@@ -101,8 +102,19 @@ header div.search-box div.select i{
     color: #f57082;
 }
 
-header div.search-box div.input {
+header div.search-box div.select select{
     color: #828282b7;
+    font-size: 1rem;
+    flex-grow: 1;
+}
+
+header div.search-box div.input i{
+    color: #828282b7;
+}
+
+header div.search-box div.input input{
+    color: #828282b7;
+    font-size: 1rem;
 }
 
 header div.search-box div.seperator{
@@ -115,6 +127,12 @@ header div.search-box div.input{
     flex-grow: 80;
 }
 
+header div.search-box div.select{
+    flex-grow: 5;
+}
+
 header div.search-box div.input input{
     width: 100%;
+    align-self: center;
+    font-size: 1rem;
 }
